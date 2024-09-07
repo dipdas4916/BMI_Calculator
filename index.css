@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+}
+form{
+    position: relative;
+    top: 10vh;
+}
+#heading{
+    margin-bottom: 5vh;
+    color: rgb(3, 251, 3);
+    text-shadow: 5px 5px 3px black;
+    font-size: 4rem;
+    font-weight: 900;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input{
+    box-shadow: 4px 4px 8px 2px black;
+    width:40vw;
+    padding: 6px;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    border:none;
+}
+.input:hover{
+    background-color: rgb(117, 201, 197);
+    border: 1px solid blue;
+    transition: all 0.3s ease-in-out 0.3s;
+    transform: scale(1.2);
+}
+.input:focus{
+    background-color: lightgreen;
+    border: 2px solid darkgreen;
+}
+label{
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    text-shadow: 2px 2px 2px deeppink;
+    font-weight: 800;
+    cursor: pointer;
+}
+#calculate{
+    margin-top: 2vh;
+    height:7vh;
+    width:30vw;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    border:none;
+    box-shadow: 5px 5px 6px 5px black;
+    margin-bottom: 6vh;
+    color:black;
+    text-shadow: 3px 3px 3px deepskyblue;
+    background-color: yellowgreen;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#calculate:hover{
+    transition: all 0.3s ease-in-out 0.3s;
+    transform: scale(1.3);   
+    box-shadow: 4px 4px 5px 4px blue;
+}
+
+h3{
+    color:blue;
+    text-shadow: 3px 3px 2px cyan;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 2vh;
+    text-decoration: underline;
+}
+#result{
+    margin: 2vh 0 2vh 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color:black;
+    text-shadow: 3px 2px 3px yellow;
+}
+.guidance{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color:blue;
+    text-shadow: 1px 1px 1px cyan;
+}

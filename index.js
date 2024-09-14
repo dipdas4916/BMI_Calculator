@@ -25,17 +25,17 @@ form.addEventListener('submit', (e) => {
         const value = (weight / Math.pow(height,2)).toFixed(2);
         
         if(value < 18.6 ){
-            result.innerHTML = `<span> Under Weight, BMI Value = ${value} <br><br>&nbsp; &nbsp;  <img src="illustration-underweight-man-skin-bones-260nw-1329921086.jpg" alt = "Under weight Human Image"></img></span>` ;
+            result.innerHTML = `<span> Under Weight, BMI Value = ${value} <br><br>&nbsp; &nbsp;  <img src="illustration-underweight-man-skin-bones-260nw-1329921086.jpg" alt = "Under weight Human Image" style="mix-blend-mode:multiply"></img></span>` ;
             document.querySelector('#height').value = "";
          document.querySelector('#weight').value = "";
         }
         else if(value >= 18.6 && value <= 24.9){
-            result.innerHTML = `<span> Normal, BMI Value = ${value} <br><br>&nbsp; &nbsp; <img src="healthy-people-cartoon-2018-41.png" alt = "Fit Human Image" height="auto"></img></span>`;
+            result.innerHTML = `<span> Normal, BMI Value = ${value} <br><br>&nbsp; &nbsp; <img src="healthy-people-cartoon-2018-41.png" alt = "Fit Human Image" height="auto" style="mix-blend-mode:multiply"></img></span>`;
             document.querySelector('#height').value = "";
          document.querySelector('#weight').value = "";
         }
         else{
-            result.innerHTML = `<span> Over Weight, BMI Value = ${value}<br><br> &nbsp; &nbsp; <img src="overweight-man-standing-on-body-260nw-2249186219.jpg" alt = "Over Weight Human Image"></img></span>`;
+            result.innerHTML = `<span> Over Weight, BMI Value = ${value}<br><br> &nbsp; &nbsp; <img src="overweight-man-standing-on-body-260nw-2249186219.jpg" alt = "Over Weight Human Image" style="mix-blend-mode:multiply"></img></span>`;
             document.querySelector('#height').value = "";
          document.querySelector('#weight').value = "";
         }
